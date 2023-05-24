@@ -1,0 +1,43 @@
+JSON ITERATE OVER ALL THE LOOPS (FOR,FOR IN,FOR OF,FOR EACH);
+var json = [{
+    "Playername" : "Ms Dhoni", 
+    "Skills"   : "Batting,Captaincy,WK",
+    "Team" : "India",
+    "Age": "38"
+},
+{
+   "Playername" : "ABD", 
+    "Skills"   : "Batting,WK",
+    "Team" : "Sount Africa",
+    "Age": "38" 
+}];
+//for loop
+for(var i = 0; i < json.length; i++) {
+    var obj = json[i];
+
+    console.log(obj.Playername);
+    console.log(obj.Skills);
+    console.log(obj.Team);
+    console.log(obj.Age);
+
+}
+//for Each
+json.forEach(function(obj) { console.log(obj.Team); });
+
+//for In
+for (var key in json) {
+if (json.hasOwnProperty(key)) {
+  console.log(json[key].Playername);
+  console.log(json[key].Skills);
+ 
+}
+}
+//for Of
+let text = "";
+for (let x of json[key].Playername) {
+ text += x; 
+}
+ console.log(text);
+
+
+Fiddle link of codes :https://jsfiddle.net/3p9ty8rx/1/

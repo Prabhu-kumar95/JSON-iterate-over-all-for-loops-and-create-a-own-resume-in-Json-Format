@@ -1,0 +1,61 @@
+CREATE MY OWN RESUME IN JSON FORMAT:
+
+let myResume={
+    "PERSONAL PROFILE": {
+      "name": "K.Prabhu",
+      "email": "a.b.prabhu268@gmail.com",
+      "phone": 9150645022,
+      "degree": "Diploma",
+      "location": {
+        "address": "A/74,chinna gonur,mettur,salem",
+        "postalCode": 636404,
+        "city": "salem",
+        "state": "Tamilnadu",
+        "country": "India"
+      },
+      "profiles": [
+        {
+          
+          "github":"https://github.com/Prabhu-kumar95"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "DEBAJ INDUSTRIAL SERVICES",
+        "position": "PIPING SUPERVISOR",
+        "startDate": "2016-06-26",
+        "endDate": "2022-09-06",
+        "summary": "i have managed the team members and complete the work in certain time",
+      },
+    ],
+    "education": [
+      {
+        "Institution": "The kavery polytechnic college",
+        "Department": "Electrical Electronics Engineering",
+        "studyType": "fulltime",
+        "Batch start year": 2011,
+        "Batch end year": 2014,
+        "Percentage": 88.28,
+      }
+    ],
+    "skills": [
+      {
+        "name": "python,javascript",
+        "level": "beginer",
+        
+      }
+    ],
+    "languages": [
+      {
+        "language": "Tamil,English",
+      }
+    ],
+    "interests": [
+      {
+        "name": "script writing,Shortfilm making",
+      }
+    ]
+  }
+  console.log(myResume);
+  
